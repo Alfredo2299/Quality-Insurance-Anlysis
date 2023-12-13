@@ -1,0 +1,20 @@
+da ni=13 no=138 ma=cm
+cm=indip.cov fu
+  
+la
+T1 T2 P1 P2 P3 SE1 SE2 SE3 SE4 A1 A2 SC1 SC2
+  
+mo nx=13 nk=5 lx=fu,fi
+  
+lk
+tranquillità personale servizi alloggio spazi
+  
+pa lx
+2(1 0 0 0 0)
+3(0 1 0 0 0)
+4(0 0 1 0 0)
+2(0 0 0 1 0)
+2(0 0 0 0 1)
+  
+pd
+ou

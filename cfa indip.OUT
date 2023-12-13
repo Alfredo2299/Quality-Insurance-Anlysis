@@ -1,0 +1,302 @@
+
+                                DATE: 12/11/2023
+                                  TIME: 17:59
+
+
+                                L I S R E L  8.80
+
+                                       BY
+
+                         Karl G. Jöreskog & Dag Sörbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Users\Hp\Desktop\cfa indipendenti\cfa indip.lpj:
+
+ da ni=13 no=138 ma=cm
+ cm=indip.cov fu
+  
+ la
+ T1 T2 P1 P2 P3 SE1 SE2 SE3 SE4 A1 A2 SC1 SC2
+  
+ mo nx=13 nk=5 lx=fu,fi
+  
+ lk
+ tranquillitÓ personale servizi alloggio spazi
+  
+ pa lx
+ 2(1 0 0 0 0)
+ 3(0 1 0 0 0)
+ 4(0 0 1 0 0)
+ 2(0 0 0 1 0)
+ 2(0 0 0 0 1)
+  
+ pd
+ ou
+
+ da ni=13 no=138 ma=cm                                                          
+
+                           Number of Input Variables 13
+                           Number of Y - Variables    0
+                           Number of X - Variables   13
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   138
+
+ da ni=13 no=138 ma=cm                                                          
+
+         Covariance Matrix       
+
+                  T1         T2         P1         P2         P3        SE1   
+            --------   --------   --------   --------   --------   --------
+       T1       3.01
+       T2       1.32       2.06
+       P1       0.78       0.41       2.36
+       P2       0.29       0.17       1.02       1.93
+       P3       0.65       0.62       0.60       0.84       2.00
+      SE1       0.09       0.10       0.37       0.34      -0.02       2.82
+      SE2       0.98       0.87       0.56       0.34       0.44       0.78
+      SE3       0.68       0.64       0.56       0.61       0.46       0.87
+      SE4       0.58       0.60       0.35       0.29       0.19       0.85
+       A1       0.52       0.31       0.31       0.18       0.19       0.60
+       A2       0.59       0.32       0.50       0.28       0.47       0.51
+      SC1       0.57       0.32       0.44       0.34       0.45       0.44
+      SC2       0.60       0.25       0.42       0.43       0.41       0.11
+
+         Covariance Matrix       
+
+                 SE2        SE3        SE4         A1         A2        SC1   
+            --------   --------   --------   --------   --------   --------
+      SE2       2.68
+      SE3       0.83       2.59
+      SE4       0.79       0.99       2.15
+       A1       0.68       0.95       0.82       2.76
+       A2       0.22       1.03       0.59       1.41       2.74
+      SC1       0.58       0.46      -0.16       0.29       0.28       1.93
+      SC2       0.55      -0.04      -0.16       0.25      -0.05       0.78
+
+         Covariance Matrix       
+
+                 SC2   
+            --------
+      SC2       2.38
+
+
+ da ni=13 no=138 ma=cm                                                          
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            tranquil   personal    servizi   alloggio      spazi
+            --------   --------   --------   --------   --------
+       T1          1          0          0          0          0
+       T2          2          0          0          0          0
+       P1          0          3          0          0          0
+       P2          0          4          0          0          0
+       P3          0          5          0          0          0
+      SE1          0          0          6          0          0
+      SE2          0          0          7          0          0
+      SE3          0          0          8          0          0
+      SE4          0          0          9          0          0
+       A1          0          0          0         10          0
+       A2          0          0          0         11          0
+      SC1          0          0          0          0         12
+      SC2          0          0          0          0         13
+
+         PHI         
+
+            tranquil   personal    servizi   alloggio      spazi
+            --------   --------   --------   --------   --------
+ tranquil          0
+ personal         14          0
+  servizi         15         16          0
+ alloggio         17         18         19          0
+    spazi         20         21         22         23          0
+
+         THETA-DELTA 
+
+                  T1         T2         P1         P2         P3        SE1
+            --------   --------   --------   --------   --------   --------
+                  24         25         26         27         28         29
+
+         THETA-DELTA 
+
+                 SE2        SE3        SE4         A1         A2        SC1
+            --------   --------   --------   --------   --------   --------
+                  30         31         32         33         34         35
+
+         THETA-DELTA 
+
+                 SC2
+            --------
+                  36
+ 
+
+
+ da ni=13 no=138 ma=cm                                                          
+
+ Number of Iterations = 11
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            tranquil   personal    servizi   alloggio      spazi   
+            --------   --------   --------   --------   --------
+       T1       1.31        - -        - -        - -        - -
+              (0.18)
+                7.38
+       T2       1.01        - -        - -        - -        - -
+              (0.14)
+                6.98
+       P1        - -       0.97        - -        - -        - -
+                         (0.15)
+                           6.63
+       P2        - -       1.01        - -        - -        - -
+                         (0.13)
+                           7.56
+       P3        - -       0.79        - -        - -        - -
+                         (0.13)
+                           5.86
+      SE1        - -        - -       0.75        - -        - -
+                                    (0.16)
+                                      4.76
+      SE2        - -        - -       0.86        - -        - -
+                                    (0.15)
+                                      5.74
+      SE3        - -        - -       1.11        - -        - -
+                                    (0.14)
+                                      7.74
+      SE4        - -        - -       0.93        - -        - -
+                                    (0.13)
+                                      7.06
+       A1        - -        - -        - -       1.31        - -
+                                               (0.18)
+                                                 7.39
+       A2        - -        - -        - -       1.07        - -
+                                               (0.17)
+                                                 6.47
+      SC1        - -        - -        - -        - -       0.87
+                                                          (0.18)
+                                                            4.95
+      SC2        - -        - -        - -        - -       0.89
+                                                          (0.19)
+                                                            4.77
+
+         PHI         
+
+            tranquil   personal    servizi   alloggio      spazi   
+            --------   --------   --------   --------   --------
+ tranquil       1.00
+ personal       0.40       1.00
+              (0.11)
+                3.56
+  servizi       0.55       0.45       1.00
+              (0.10)     (0.11)
+                5.40       4.09
+ alloggio       0.30       0.24       0.65       1.00
+              (0.12)     (0.12)     (0.10)
+                2.62       2.03       6.71
+    spazi       0.43       0.49       0.22       0.21       1.00
+              (0.13)     (0.13)     (0.14)     (0.14)
+                3.34       3.89       1.63       1.53
+
+         THETA-DELTA 
+
+                  T1         T2         P1         P2         P3        SE1   
+            --------   --------   --------   --------   --------   --------
+                1.29       1.05       1.43       0.91       1.38       2.26
+              (0.37)     (0.23)     (0.24)     (0.21)     (0.21)     (0.30)
+                3.50       4.51       5.93       4.44       6.73       7.59
+
+         THETA-DELTA 
+
+                 SE2        SE3        SE4         A1         A2        SC1   
+            --------   --------   --------   --------   --------   --------
+                1.93       1.36       1.29       1.05       1.58       1.17
+              (0.27)     (0.24)     (0.20)     (0.37)     (0.30)     (0.28)
+                7.21       5.72       6.38       2.84       5.25       4.17
+
+         THETA-DELTA 
+
+                 SC2   
+            --------
+                1.58
+              (0.32)
+                4.93
+
+         Squared Multiple Correlations for X - Variables         
+
+                  T1         T2         P1         P2         P3        SE1   
+            --------   --------   --------   --------   --------   --------
+                0.57       0.49       0.40       0.53       0.31       0.20
+
+         Squared Multiple Correlations for X - Variables         
+
+                 SE2        SE3        SE4         A1         A2        SC1   
+            --------   --------   --------   --------   --------   --------
+                0.28       0.47       0.40       0.62       0.42       0.39
+
+         Squared Multiple Correlations for X - Variables         
+
+                 SC2   
+            --------
+                0.34
+
+
+                           Goodness of Fit Statistics
+
+                             Degrees of Freedom = 55
+               Minimum Fit Function Chi-Square = 88.03 (P = 0.0031)
+       Normal Theory Weighted Least Squares Chi-Square = 83.66 (P = 0.0076)
+                 Estimated Non-centrality Parameter (NCP) = 28.66
+             90 Percent Confidence Interval for NCP = (7.90 ; 57.37)
+ 
+                        Minimum Fit Function Value = 0.64
+                Population Discrepancy Function Value (F0) = 0.21
+              90 Percent Confidence Interval for F0 = (0.058 ; 0.42)
+             Root Mean Square Error of Approximation (RMSEA) = 0.062
+            90 Percent Confidence Interval for RMSEA = (0.032 ; 0.087)
+               P-Value for Test of Close Fit (RMSEA < 0.05) = 0.23
+ 
+                  Expected Cross-Validation Index (ECVI) = 1.14
+             90 Percent Confidence Interval for ECVI = (0.98 ; 1.35)
+                         ECVI for Saturated Model = 1.33
+                        ECVI for Independence Model = 4.69
+ 
+      Chi-Square for Independence Model with 78 Degrees of Freedom = 617.10
+                            Independence AIC = 643.10
+                                Model AIC = 155.66
+                              Saturated AIC = 182.00
+                            Independence CAIC = 694.15
+                               Model CAIC = 297.04
+                             Saturated CAIC = 539.38
+ 
+                          Normed Fit Index (NFI) = 0.86
+                        Non-Normed Fit Index (NNFI) = 0.91
+                     Parsimony Normed Fit Index (PNFI) = 0.60
+                        Comparative Fit Index (CFI) = 0.94
+                        Incremental Fit Index (IFI) = 0.94
+                         Relative Fit Index (RFI) = 0.80
+ 
+                             Critical N (CN) = 129.08
+ 
+ 
+                      Root Mean Square Residual (RMR) = 0.17
+                             Standardized RMR = 0.070
+                        Goodness of Fit Index (GFI) = 0.91
+                   Adjusted Goodness of Fit Index (AGFI) = 0.86
+                  Parsimony Goodness of Fit Index (PGFI) = 0.55
+
+                           Time used:    0.016 Seconds
